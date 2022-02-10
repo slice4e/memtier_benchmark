@@ -34,7 +34,6 @@
 #include <sys/resource.h>
 
 #ifdef USE_TLS
-#include <openssl/crypto.h>
 #include <openssl/conf.h>
 #include <openssl/ssl.h>
 #include <openssl/err.h>
